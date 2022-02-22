@@ -5,6 +5,7 @@ import styles from "../styles/Home.module.css";
 import Button from "@material-tailwind/react/Button";
 import Icon from "@material-tailwind/react/Icon";
 import Doc from "../components/Doc";
+import RecentDocs from "../components/RecentDocs";
 
 export default function Home() {
   return (
@@ -17,7 +18,8 @@ export default function Home() {
 
       <Header />
       <Doc />
-      
+      <RecentDocs />
+
     </div>
   );
 }
