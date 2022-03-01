@@ -12,10 +12,11 @@ const Header = () => {
         rounded={true}
         iconOnly={true}
         className="md:inline-flex h-20 w-20 border-0"
+        
       >
         <Icon name="menu" size="3xl" color="darkgray"/>
       </Button>
-      <Icon name="description" style={{fontSize: 40}} color="blue" size="10xl" />
+      <Icon name="description"  color="blue" size="10xl" />
       <h1 className="md:inline-flex ml-2 text-gray-700 text-2xl">Docs</h1>
 
       <div
